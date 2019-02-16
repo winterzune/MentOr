@@ -1,8 +1,7 @@
 import React from "react";
-import "../../data/mentorData.js"
 
-const JediProfile = props => (
-  <div className="card" id="profileCard">
+const MyProfile = props => (
+  <div className="card">
     <div className="img-container">
       <img alt={props.name} src={props.image} />
     </div>
@@ -22,4 +21,4 @@ const JediProfile = props => (
 </div>
 );
 
-export default JediProfile;
+export default MyProfile;
